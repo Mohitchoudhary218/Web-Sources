@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Starbucks</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+	<link rel="icon" href="/static/img.png">
+</head>
+
+<body>
+
+	<h1 class="h1">Starbucks Coffee</h1>
+	<img class="img" height="120" width="120" src="/static/img.png">
+	<img class="img1" height="170" width="170" src="/static/1.jpg">
+	<img class="img2" height="170" width="170" src="/static/2.png">
+	<img class="img3" height="170" width="170" src="/static/3.jpg">
+
+
+		<!-- Customer information -->
+    <form id="customerInformationForm">
+    	<h2>Order Information</h2>
+
+		<label id="firstNameLabel">First name: </label>
+    	<input placeholder="FirstName" id="firstNameInput" type="text" title="Enter first name" />
+    	<br/> <br/>
+
+    	<label id="lastNameLabel">Last name: </label>
+    	<input placeholder="LastName" id="lastNameInput" type="text" title="Enter last name"/>
+    	<br/> <br/>
+
+    	<h2> Coffee Type: </h2>
+
+
+    	<input id="cheesePizzaInput"
+        type="radio"
+        name="pizzaType"
+        value="Expresso">Expresso</input><br/>
+    	<input id="pepperoniPizzaInput"
+        type="radio"
+        name="pizzaType"
+        value="Capurtinno">Capurtinno</input><br/>
+    	<input id="chickenPizzaInput"
+        type="radio"
+        name="pizzaType"
+        value="Ice Coffee">Ice Coffee</input><br/>
+
+ 
+   		<h2>Coffee Size:</h2>
+        <input id="smallSizeInput"
+        type="radio"
+        name="pizzaSize"
+        value="small">Small</input><br/>
+        <input id="mediumSizeInput"
+        type="radio"
+        name="pizzaSize"
+        value="medium">Medium</input><br/>
+        <input id="largeSizeInput"
+        type="radio"
+        name="pizzaSize"
+        value="large">Large</input><br/>
+		
+		<br>
+		<label><strong>How Many Cups:</strong></label>
+		<input id="quantity" type="text">
+
+		<br>
+		<br>
+		<button type="button" id="submitButton" title="Click to place and order">Add to Cart</button>
+		<br>
+		<br>
+		<button type="submit" id="transfer">Place order</button>
+		<br>
+		<br>
+    	<button id="final" type="button">FINAL RECEIPT</button>
+     </form>
+
+		<!-- Shows order summary -->
+		<p id="confirmation"> </p>
+		<h3> Orders </h3>
+
+		<table id ="ordersTable" class="center-me">
+			<thead>
+				<tr>
+						<th> Type(Added This Selection) </th> <th> Size (Added this size) </th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+
+		</table>
+
+		<h3> Raw JSON </h3>
+		<p id = "rawJson"> </p>
+
+		<h3> JSON received from the server </h3>
+		<p id="responseFromServer"></p>
+
+		<h3> FINAL ORDER RECEIPT </h3>
+		<p>
+			<ul>
+				<li id="response" ></li>
+				<li id="response1"></li>
+				<li id="response2"></li>
+			</ul>
+			<p id="response3"></p>
+		</p>
+
+		<!-- Code for displaying order summary -->
+		<script type="text/javascript" src="{{url_for('static', filename='place_order.js')}}"></script>
+
+
+</body>
+
+</html>

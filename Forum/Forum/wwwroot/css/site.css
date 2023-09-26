@@ -1,0 +1,222 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#head 
+{
+   color:white;
+   text-align:center;
+   background-color: Blue;
+   border-radius: 20px;
+}
+
+#head1
+{
+  position: relative;
+  left: 200px;
+  top:20px;
+  font-size: larger;
+
+}
+
+#bottom
+{
+  color:grey;
+}
+
+/*
+nav ul li {
+  width:auto;
+  float: left;
+  text-align: center;
+  padding: 24px 15px;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+  transition: all 0.5s ease;
+
+  position: relative;
+}
+
+
+nav ul li ul.sub-nav {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 200px;
+  height: 150px;
+  background: white;
+  border-top: 1px solid #3d3f50;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#fun 
+{
+  position:relative;
+  top:7px
+}
+
+nav ul li ul.sub-nav li {
+  color: black;
+  font-size: 14px;
+  width: 100%;
+  padding: 15px 0;
+}
+
+nav ul li ul.sub-nav li:hover {
+  background-color: grey;
+  box-shadow: 0 0;
+}
+
+nav ul li:hover ul.sub-nav {
+  visibility: visible;
+  opacity: 1;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+    */
+
+#search1
+{
+  background-color:lightskyblue;
+  width:500px;
+  margin-left: 400px;
+  text-align: center;
+  color:white;
+  border-left: 50px;
+  border-radius: 15px;
+}
+
+#centers
+{
+  position:relative;
+  top:15px;
+}
+
+#below
+{
+  position:relative;
+  top:75px;
+
+}
+
+#front 
+{
+  position: relative;
+  left:400px;
+}
+
+#button1
+{
+    position:relative;
+    left:5px;
+}
+
+#button3
+{
+    position:relative;
+    right:5px;
+}
+
+
+.check
+{
+    position:relative;
+    left:1125px;
+}
+
+#r1
+{
+    position:relative;
+    font-size:30px;
+    top:16px;
+}
+
+#clr
+{
+    color:indianred;
+}
+
+#size
+{
+    font-size:30px;
+}
+
+#size_1
+{
+    font-size:20px;
+
+}
+
+#change 
+{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#change_2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    left: 100px;
+}
+
+#change_1 {
+    width: 700px;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#change_3 {
+    width: 700px;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position:relative;
+    left:100px;
+
+}
+
+#position
+{
+    position:relative;
+    top:50px;
+
+}
+
+select {
+    width: 700px;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position:relative;
+    left:100px;
+}

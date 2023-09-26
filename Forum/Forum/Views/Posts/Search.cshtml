@@ -1,0 +1,25 @@
+@model IEnumerable<Forum.Models.Post>
+
+
+@{
+    ViewData["Title"] = "FDU Forum";
+}
+
+<div class="card">
+    <div class="card-title bg-primary text-center text-white" id="size">
+        Search Posts
+    </div>
+    <div class="card-body">
+        <form asp-action="Display_Search">
+            <input name="data" type="text" placeholder="Enter Topic: Security/Networking/Programming" id="change_1">
+            <input type="submit" value="Search" class="btn btn-primary" id="change" />
+        </form>
+
+    </div>
+</div>
+
+<br />
+
+<br />
+
+

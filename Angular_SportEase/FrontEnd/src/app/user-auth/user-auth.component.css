@@ -1,0 +1,27 @@
+#location {
+    position:relative;
+    left:900px;
+    top:100px;
+    width:35rem;
+    height: 18rem;
+}
+
+
+#resize
+{
+    position: relative;
+    left: 50px;
+}
+
+#put
+{
+    position: relative; 
+    left:1300px;
+    cursor: pointer;
+}
+
+#change
+{
+    color:white;
+    text-decoration: none;
+}

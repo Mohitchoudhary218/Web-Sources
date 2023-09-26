@@ -1,0 +1,53 @@
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Booking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form #addForm="ngForm" (ngSubmit)="AddBooking(addForm)">
+          <div class="form-group col-md-12">
+            <label for="Reservation Place">Reservation Place</label>
+            <select for="Reservation Place" class="form-control" ngModel name="reservationArea">
+              <option disabled selected hidden>Select</option>
+              <option *ngFor="let place of data" value={{place.name}} >{{place.name}}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleDropdownFormEmail2">Email address</label>
+            <input type="email" class="form-control" ngModel name="userId" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="form-row col-md-4">
+              <div class="col">
+                <input type="text" ngModel name="firstName" class="form-control" placeholder="First name" id="first">
+              </div>
+              <div class="col">
+                <input type="text" ngModel name="lastName" class="form-control" placeholder="Last name" id="place">
+              </div>
+          </div>
+          
+            <div class="form-group col-md-10">
+                <label for="ReservationPerson">Person Count</label>
+                <input type="number" ngModel name="personCount" class="form-control" id="ReservationPerson" placeholder="No of Persons" required>
+            </div>
+
+            <div class="form-group col-md-10">
+                <label for="ReservationHours">Reservation Hours</label>
+                <input type="number" ngModel name="reservationHours" class="form-control" id="ReservationHours" placeholder="No of Hours" required>
+            </div>
+
+            <div class="form-group col-md-10">
+            <label for="ReservationDate">Reservation Date and Time</label>
+            <input type="datetime-local" ngModel name="appointmentTime" class="form-control" id="ReservationDate" required>
+            </div>
+            <br>
+            <button type="submit" [disabled]="addForm.invalid" class="btn btn-success btn-sm btn-block" id="place2" style="font-size: large;">Reserve</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

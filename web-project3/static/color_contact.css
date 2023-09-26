@@ -1,0 +1,97 @@
+
+body{
+    background-image: url("pic.jpg");
+    background-repeat: no-repeat;
+}
+.change
+{
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:relative;
+    left:700px;
+    top:30px;
+}
+
+#div1
+{
+    position:relative;
+    left: 1000px;
+    top: 50px
+}
+#div2
+{
+    position:relative;
+    font-size: 20px;
+    color:gray ;
+}
+#div3
+{
+    position:relative;
+    font-size: 20px;
+    color:gray ;
+}
+#div4
+{
+    position:relative;
+    font-size: 20px;
+    color:gray ;
+
+}
+#div5
+{
+    position:relative;
+    font-size: 20px;
+    
+}
+#div6
+{
+    position:relative;
+    bottom:13px;
+    font-size: 20px;
+    color:gray ;
+
+}
+#div7
+{
+    font-size: 15px;
+}
+
+#bottom{
+    opacity: 0.75;
+    position:relative;
+    top: 200px;
+    background-color:darkgray;
+    height: 200px;
+}
+
+.turn {
+    position:relative;
+    font-family: Times, serif;
+    left: 1200px;
+    top: 20px;
+}
+
+.return 
+{
+    position:relative;
+    top:50px;
+    left:50px;
+    color:black;
+    font-size: large;
+}
+
+#change
+{
+
+    color:white;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:grey;
+    position:relative;
+    left:860px;
+    top: 25px;
+    height: 40px;
+    width: 700px;
+    padding: 20px;
+
+}

@@ -1,0 +1,77 @@
+body {
+    background-image: url('pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.enter {
+    position:relative;
+    right: 200px;
+    top: 250px;
+    text-align: center;
+
+}
+
+.head {
+    font-size:250%;
+    font-family:'Courier New', Courier, monospace;
+    color:brown;
+    text-shadow: 2px 2px black;
+}
+
+.head1{
+    font-size: 200%;
+    color:brown;
+    text-shadow: 1px 1px black;
+}
+
+#comment {
+    font-size:large;
+    font-weight:900;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#b1 {
+    background-color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#b2 {
+    background-color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.line{
+    font-size: 20px ;
+    position:relative;
+    left: 800px;
+    background-color: dimgrey;
+    height: 50px;
+
+}
+
+.a5
+{
+   position: relative;
+   left: 100px; 
+   top: 10px;
+}
+
+.a4
+{
+   position: relative;
+   left: 80px; 
+   top: 10px;
+}
+
+#b
+{
+    text-decoration: none;
+    color:white
+
+}

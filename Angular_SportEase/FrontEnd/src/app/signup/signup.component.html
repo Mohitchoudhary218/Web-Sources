@@ -1,0 +1,42 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form #addForm="ngForm" (ngSubmit)="AddAuth(addForm)">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail2">Email address</label>
+              <input type="email" ngModel name="userId" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword2">Password</label>
+              <input type="password" ngModel name="password" class="form-control" id="exampleDropdownFormPassword2" (input)="auth($event)" placeholder="Password" required>
+              <small id="passwordHelpBlock" class="form-text text-muted">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+              </small>
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword3">Confirm Password</label>
+              <input type="text" class="form-control" id="exampleDropdownFormPassword3" (input)="confirm($event)" placeholder="Confirm Password" required>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                Remember me
+              </label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-success btn-sm btn-block" id="place2" style="font-size: large;" *ngIf="pass === conf && pass != ''; else notifyme">Register</button>
+            <ng-template #notifyme>
+              <button type="submit" class="btn btn-success btn-sm btn-block" id="place2" style="font-size: large;" disabled>Register</button>
+            </ng-template>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+#put
+{
+    position: relative; 
+    left:1150px;
+    cursor: pointer;
+}
+#put1
+{
+    position: relative; 
+    left:1100px;
+    cursor: pointer;
+}
+
+#resize
+{
+    position: relative;
+    left: 50px;
+}

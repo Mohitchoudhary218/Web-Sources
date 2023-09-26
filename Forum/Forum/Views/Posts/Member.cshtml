@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Forum.Models.Post>
+
+<table class="table table-striped table-dark table-active text-center">
+    <thead>
+        <th id="r1">
+            Member Page
+        </th>
+    </thead>
+</table>
+<table class="table table-striped table-dark table-active text-center">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                Posted By
+            </th>
+            <th>
+                Posted At
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Topic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
+                <td id="clr">
+                    @Html.DisplayFor(modelItem => item.PostedBy)
+                </td>
+                <td id="clr">
+                    @Html.DisplayFor(modelItem => item.PostedAt)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+<p class="check">
+    <a asp-action="Create" class="btn btn-outline-primary">Post a new message</a>
+</p>

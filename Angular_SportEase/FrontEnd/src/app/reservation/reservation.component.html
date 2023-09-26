@@ -1,0 +1,111 @@
+<div class="card" id="location">
+  <div class="card-header">
+    Reservation Details
+  </div>
+  <div class="card-body">
+    <form id="go">
+      <div class="form-group col-md-8">
+          <label for="area">Reservation Area:</label>
+          <select id="area" class="form-control" (input)="area($event)" required>
+            <option hidden>Choose...</option>
+            <option value="Sport centre">Sport Centre</option>
+            <option value="Community ground">Community Ground</option>
+            <option value="Park">Parks</option>
+          </select>
+      </div>
+      <div class="form-group col-md-8">
+          <label for="typeSport">Sports to Reserve For:</label>
+          <select id="typeSport" class="form-control" (input)="sport($event)" required>
+            <option disabled selected hidden>Choose...</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Softball">Softball</option>
+            <option value="Football">Football</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Golf">Golf</option>
+            <option value="Baseball">Baseball</option>
+            <option value="Handball">Handball</option>
+            <option value="Running Tracks">Running Tracks</option>
+            <option value="Soccer Fields">Soccer Fields</option>
+            <option value="Field Houses">Field Houses</option>
+          </select>
+      </div>
+      <br>
+      <div class="card" style="width: 33rem;height: 7rem;">
+        <div class="card-body">
+          <h5 class="card-title">Location</h5>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <!--<input type="text" class="form-control" id="country" placeholder="country name">-->
+                <select id="typeSport" class="form-control" (input)="country($event)" required>
+                  <option disabled selected hidden>Country</option>
+                  <option value="Canada">Canada</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4" id="p1">
+                <select id="typeSport" class="form-control" (input)="province($event)" required>
+                  <option disabled selected hidden>province</option>
+                  <option value=" BC">British Columbia</option>
+                  <option value=" Alberta">Alberta</option>
+                  <option value=" Manitoba">Monataba</option>
+                  <option value=" Ontario">Ontario</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3" id="p2">
+                <select id="typeSport" class="form-control" *ngIf="state === ' BC'" (input)="city($event)" required>
+                  <option disabled selected hidden>city</option>
+                  <option value="Vancouver">Vancouver</option>
+                  <option value="Victoria">Victoria</option>
+                </select>
+                <select id="typeSport" class="form-control" *ngIf="state === ' Alberta'" (input)="city($event)" required>
+                  <option disabled selected hidden>city</option>
+                  <option value="Calgary">Calgary</option>
+                  <option value="Edmonton">Edmonton</option>
+                </select>
+                <select id="typeSport" class="form-control" *ngIf="state === ' Manitoba'" (input)="city($event)" required>
+                  <option disabled selected hidden>city</option>
+                  <option value="Brandon">Brandon</option>
+                  <option value="Winnipeg">Winnipeg</option>
+                </select>
+                <select id="typeSport" class="form-control" *ngIf="state === ' Ontario'" (input)="city($event)" required>
+                  <option disabled selected hidden>city</option>
+                  <option value="Ottawa">Ottawa</option>
+                  <option value="Toronto">Toronto</option>
+                </select>
+                  <select id="typeSport" class="form-control" *ngIf="state === ''" (input)="city($event)" required>
+                    <option disabled selected hidden>city</option>
+                    <option value="Ottawa">Ottawa</option>
+                    <option value="Toronto">Toronto</option>
+                    <option value="Brandon">Brandon</option>
+                    <option value="Winnipeg">Winnipeg</option>
+                    <option value="Calgary">Calgary</option>
+                    <option value="Edmonton">Edmonton</option>
+                    <option value="Vancouver">Vancouver</option>
+                    <option value="Victoria">Victoria</option>
+                  </select>
+              </div>
+            </div>
+        </div>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary" id="space" (click)="toggle()" *ngIf="view === false ; else nofilter">Filter</button>
+      <ng-template #nofilter>
+        <button type="submit" class="btn btn-primary" id="space" (click)="toggle()" disabled>Filter</button>
+      </ng-template>
+      <button type="button" class="btn btn-warning" id="position"><a href="/HomePage" id="change">Reset</a></button>
+    </form>
+  </div>
+</div>
+<button type="button" class="btn btn-outline-success btn-sm btn-block" id="place" (click)="show($event)" style="font-size: large;" *ngIf="tog === false ; else noshow">Show All</button>
+<ng-template #noshow>
+  <button type="button" class="btn btn-outline-success btn-sm btn-block" id="place" (click)="show($event)" style="font-size: large;" disabled>Show All</button>
+</ng-template>
+<app-list [click]="tog"
+[area]="values"
+[type]="games"
+[list]="view"
+[country]="place"
+[province]="state"
+[city]="town"></app-list>
+

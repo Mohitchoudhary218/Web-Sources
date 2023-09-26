@@ -1,0 +1,65 @@
+<div *ngFor="let item of reservation">
+    <div id="hov" class="card text-left" style="width:65rem;height: 16rem; position: relative; left:25px; bottom:150px;" *ngIf="type === item.sport && click === true && area === item.area && country === item.country && province === item.province && item.city === city">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">{{item.area}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href={{item.link}}>Link</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+            <h4>{{item.name}}</h4>
+            <h6>Sport type: {{item.sport}}</h6>
+            <h6>Rating: {{item.rating}} out of 5</h6>
+            <h6>Location: {{item.location}}, {{item.city}}, {{item.province}}, {{item.country}}</h6>
+            <h6 *ngIf="item.availability > 0; else note">Availability: {{item.availability}}</h6>
+            <ng-template #note>
+                <h6>WaitingList: {{item.availability*-1}}</h6>
+            </ng-template>
+            <h5 id="loc">Rate: ${{item.rate}}/hour</h5>
+          <button type="submit" class="btn btn-success" id="loc1" *ngIf="item.availability > 0 ; else notifyme" (click)="openModal()">Book</button>
+          <ng-template #notifyme>
+            <button type="submit" class="btn btn-success" id="loc1" disabled>Book</button> 
+          </ng-template>
+        </div>
+    </div>
+    <br>
+</div>
+<div *ngFor="let item of reservation">
+  <div id="hov1" class="card text-left" style="width:65rem;height: 16rem; position: relative; left:25px; bottom:900px;" *ngIf="list === true">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">{{item.area}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{item.link}}">Link</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+          <h4>{{item.name}}</h4>
+          <h6>Sport type: {{item.sport}}</h6>
+          <h6>Rating: {{item.rating}} out of 5</h6>
+          <h6>Location: {{item.location}}, {{item.city}}, {{item.province}}, {{item.country}}</h6>
+          <h6 *ngIf="item.availability > 0; else note">Availability: {{item.availability}}</h6>
+          <ng-template #note>
+              <h6>WaitingList: {{item.availability*-1}}</h6>
+          </ng-template>
+          <h5 id="loc">Rate: ${{item.rate}}/hour</h5>
+        <button type="submit" class="btn btn-success" id="loc1" *ngIf="item.availability > 0 ; else notifyme" (click)="openModal()">Book</button>
+        <ng-template #notifyme>
+          <button type="submit" class="btn btn-success" id="loc1" disabled>Book</button>
+        </ng-template>
+      </div>
+  </div>
+  <br>
+</div>
+<app-booking
+[data]="reservation"></app-booking>
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Using Base64</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <header id="top">
+            <h2 id="centre">Programming of the internet (CSCI 6844)</h2>
+            <div id="left">
+                <a id="first" href="templates/item.html">Home</a>
+                <a id="second" href="templates/item.html">Contact</a>
+                <a id="third" href="templates/item.html">About</a>
+            </div>
+        </header>
+        <main>
+            <div class="loc">
+                <h1><strong><u>Base64</u></strong></h1>
+                <p>A <i>binary</i> to <i>text</i><br>encoding used by <u>MIME</u><br> to transmit <i>non-text</i><br>
+                    dataused by many <br> <i> TCP/IP</i> protocols such as <br> <u>SMTP</u> and <u>HTTP</u>            
+                </p>
+            </div>
+            <div class="loc2">
+                <h1><strong><u>QRCode</u></strong></h1>
+                <p>A <i>two-dimensional</i> bar <br> code that provides easy <br> <i>access</i> to encoded data <br>
+                    using mobile devices <br> such as <i>smartphones</i>
+                </p>
+            </div>
+            <img id ="size" src="data:image/png;base64, alt="Description of the image" />
+            <img id = "photo"src="data:image/jpeg;base64,put you base64 code>"
+                alt="Description of the image" />
+            </main>
+            <footer>
+                <h3 id="footer"></h3>
+            </footer>
+        </body>
+    </html>
+    

@@ -1,0 +1,11 @@
+{{url_for('static', filename='logo.svg')}}
+{{url_for('static', filename='color.css')}}
+{{url_for('static', filename='logo.svg')}}
+{{url_for('static', filename='color_contact.css')}}
+
+
+
+
+problems:
+ 1) how to use post method in flask and retrieve the information.
+ 2) how to link different website in using flask.

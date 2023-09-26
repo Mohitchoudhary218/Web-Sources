@@ -1,0 +1,21 @@
+#place
+{
+    position: relative;
+    left:300px;
+    bottom:5px;
+}
+
+#first
+{
+    position: relative;
+    top:35px
+
+}
+
+#place2
+{
+    position: relative;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}

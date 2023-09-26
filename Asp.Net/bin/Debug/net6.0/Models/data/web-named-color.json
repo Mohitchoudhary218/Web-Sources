@@ -1,0 +1,594 @@
+[
+    {
+        "Name": "aliceblue",
+        "Code": "#f0f8ff"
+    },
+    {
+        "Name": "antiquewhite",
+        "Code": "#faebd7"
+    },
+    {
+        "Name": "aqua",
+        "Code": "#00ffff"
+    },
+    {
+        "Name": "aquamarine",
+        "Code": "#7fffd4"
+    },
+    {
+        "Name": "azure",
+        "Code": "#f0ffff"
+    },
+    {
+        "Name": "beige",
+        "Code": "#f5f5dc"
+    },
+    {
+        "Name": "bisque",
+        "Code": "#ffe4c4"
+    },
+    {
+        "Name": "black",
+        "Code": "#000000"
+    },
+    {
+        "Name": "blanchedalmond",
+        "Code": "#ffebcd"
+    },
+    {
+        "Name": "blue",
+        "Code": "#0000ff"
+    },
+    {
+        "Name": "blueviolet",
+        "Code": "#8a2be2"
+    },
+    {
+        "Name": "brown",
+        "Code": "#a52a2a"
+    },
+    {
+        "Name": "burlywood",
+        "Code": "#deb887"
+    },
+    {
+        "Name": "cadetblue",
+        "Code": "#5f9ea0"
+    },
+    {
+        "Name": "chartreuse",
+        "Code": "#7fff00"
+    },
+    {
+        "Name": "chocolate",
+        "Code": "#d2691e"
+    },
+    {
+        "Name": "coral",
+        "Code": "#ff7f50"
+    },
+    {
+        "Name": "cornflowerblue",
+        "Code": "#6495ed"
+    },
+    {
+        "Name": "cornsilk",
+        "Code": "#fff8dc"
+    },
+    {
+        "Name": "crimson",
+        "Code": "#dc143c"
+    },
+    {
+        "Name": "cyan",
+        "Code": "#00ffff"
+    },
+    {
+        "Name": "darkblue",
+        "Code": "#00008b"
+    },
+    {
+        "Name": "darkcyan",
+        "Code": "#008b8b"
+    },
+    {
+        "Name": "darkgoldenrod",
+        "Code": "#b8860b"
+    },
+    {
+        "Name": "darkgray",
+        "Code": "#a9a9a9"
+    },
+    {
+        "Name": "darkgreen",
+        "Code": "#006400"
+    },
+    {
+        "Name": "darkgrey",
+        "Code": "#a9a9a9"
+    },
+    {
+        "Name": "darkkhaki",
+        "Code": "#bdb76b"
+    },
+    {
+        "Name": "darkmagenta",
+        "Code": "#8b008b"
+    },
+    {
+        "Name": "darkolivegreen",
+        "Code": "#556b2f"
+    },
+    {
+        "Name": "darkorange",
+        "Code": "#ff8c00"
+    },
+    {
+        "Name": "darkorchid",
+        "Code": "#9932cc"
+    },
+    {
+        "Name": "darkred",
+        "Code": "#8b0000"
+    },
+    {
+        "Name": "darksalmon",
+        "Code": "#e9967a"
+    },
+    {
+        "Name": "darkseagreen",
+        "Code": "#8fbc8f"
+    },
+    {
+        "Name": "darkslateblue",
+        "Code": "#483d8b"
+    },
+    {
+        "Name": "darkslategray",
+        "Code": "#2f4f4f"
+    },
+    {
+        "Name": "darkslategrey",
+        "Code": "#2f4f4f"
+    },
+    {
+        "Name": "darkturquoise",
+        "Code": "#00ced1"
+    },
+    {
+        "Name": "darkviolet",
+        "Code": "#9400d3"
+    },
+    {
+        "Name": "deeppink",
+        "Code": "#ff1493"
+    },
+    {
+        "Name": "deepskyblue",
+        "Code": "#00bfff"
+    },
+    {
+        "Name": "dimgray",
+        "Code": "#696969"
+    },
+    {
+        "Name": "dimgrey",
+        "Code": "#696969"
+    },
+    {
+        "Name": "dodgerblue",
+        "Code": "#1e90ff"
+    },
+    {
+        "Name": "firebrick",
+        "Code": "#b22222"
+    },
+    {
+        "Name": "floralwhite",
+        "Code": "#fffaf0"
+    },
+    {
+        "Name": "forestgreen",
+        "Code": "#228b22"
+    },
+    {
+        "Name": "fuchsia",
+        "Code": "#ff00ff"
+    },
+    {
+        "Name": "gainsboro",
+        "Code": "#dcdcdc"
+    },
+    {
+        "Name": "ghostwhite",
+        "Code": "#f8f8ff"
+    },
+    {
+        "Name": "gold",
+        "Code": "#ffd700"
+    },
+    {
+        "Name": "goldenrod",
+        "Code": "#daa520"
+    },
+    {
+        "Name": "gray",
+        "Code": "#808080"
+    },
+    {
+        "Name": "green",
+        "Code": "#008000"
+    },
+    {
+        "Name": "greenyellow",
+        "Code": "#adff2f"
+    },
+    {
+        "Name": "grey",
+        "Code": "#808080"
+    },
+    {
+        "Name": "honeydew",
+        "Code": "#f0fff0"
+    },
+    {
+        "Name": "hotpink",
+        "Code": "#ff69b4"
+    },
+    {
+        "Name": "indianred",
+        "Code": "#cd5c5c"
+    },
+    {
+        "Name": "indigo",
+        "Code": "#4b0082"
+    },
+    {
+        "Name": "ivory",
+        "Code": "#fffff0"
+    },
+    {
+        "Name": "khaki",
+        "Code": "#f0e68c"
+    },
+    {
+        "Name": "lavender",
+        "Code": "#e6e6fa"
+    },
+    {
+        "Name": "lavenderblush",
+        "Code": "#fff0f5"
+    },
+    {
+        "Name": "lawngreen",
+        "Code": "#7cfc00"
+    },
+    {
+        "Name": "lemonchiffon",
+        "Code": "#fffacd"
+    },
+    {
+        "Name": "lightblue",
+        "Code": "#add8e6"
+    },
+    {
+        "Name": "lightcoral",
+        "Code": "#f08080"
+    },
+    {
+        "Name": "lightcyan",
+        "Code": "#e0ffff"
+    },
+    {
+        "Name": "lightgoldenrodyellow",
+        "Code": "#fafad2"
+    },
+    {
+        "Name": "lightgray",
+        "Code": "#d3d3d3"
+    },
+    {
+        "Name": "lightgreen",
+        "Code": "#90ee90"
+    },
+    {
+        "Name": "lightgrey",
+        "Code": "#d3d3d3"
+    },
+    {
+        "Name": "lightpink",
+        "Code": "#ffb6c1"
+    },
+    {
+        "Name": "lightsalmon",
+        "Code": "#ffa07a"
+    },
+    {
+        "Name": "lightseagreen",
+        "Code": "#20b2aa"
+    },
+    {
+        "Name": "lightskyblue",
+        "Code": "#87cefa"
+    },
+    {
+        "Name": "lightslategray",
+        "Code": "#778899"
+    },
+    {
+        "Name": "lightslategrey",
+        "Code": "#778899"
+    },
+    {
+        "Name": "lightsteelblue",
+        "Code": "#b0c4de"
+    },
+    {
+        "Name": "lightyellow",
+        "Code": "#ffffe0"
+    },
+    {
+        "Name": "lime",
+        "Code": "#00ff00"
+    },
+    {
+        "Name": "limegreen",
+        "Code": "#32cd32"
+    },
+    {
+        "Name": "linen",
+        "Code": "#faf0e6"
+    },
+    {
+        "Name": "magenta",
+        "Code": "#ff00ff"
+    },
+    {
+        "Name": "maroon",
+        "Code": "#800000"
+    },
+    {
+        "Name": "mediumaquamarine",
+        "Code": "#66cdaa"
+    },
+    {
+        "Name": "mediumblue",
+        "Code": "#0000cd"
+    },
+    {
+        "Name": "mediumorchid",
+        "Code": "#ba55d3"
+    },
+    {
+        "Name": "mediumpurple",
+        "Code": "#9370db"
+    },
+    {
+        "Name": "mediumseagreen",
+        "Code": "#3cb371"
+    },
+    {
+        "Name": "mediumslateblue",
+        "Code": "#7b68ee"
+    },
+    {
+        "Name": "mediumspringgreen",
+        "Code": "#00fa9a"
+    },
+    {
+        "Name": "mediumturquoise",
+        "Code": "#48d1cc"
+    },
+    {
+        "Name": "mediumvioletred",
+        "Code": "#c71585"
+    },
+    {
+        "Name": "midnightblue",
+        "Code": "#191970"
+    },
+    {
+        "Name": "mintcream",
+        "Code": "#f5fffa"
+    },
+    {
+        "Name": "mistyrose",
+        "Code": "#ffe4e1"
+    },
+    {
+        "Name": "moccasin",
+        "Code": "#ffe4b5"
+    },
+    {
+        "Name": "navajowhite",
+        "Code": "#ffdead"
+    },
+    {
+        "Name": "navy",
+        "Code": "#000080"
+    },
+    {
+        "Name": "oldlace",
+        "Code": "#fdf5e6"
+    },
+    {
+        "Name": "olive",
+        "Code": "#808000"
+    },
+    {
+        "Name": "olivedrab",
+        "Code": "#6b8e23"
+    },
+    {
+        "Name": "orange",
+        "Code": "#ffa500"
+    },
+    {
+        "Name": "orangered",
+        "Code": "#ff4500"
+    },
+    {
+        "Name": "orchid",
+        "Code": "#da70d6"
+    },
+    {
+        "Name": "palegoldenrod",
+        "Code": "#eee8aa"
+    },
+    {
+        "Name": "palegreen",
+        "Code": "#98fb98"
+    },
+    {
+        "Name": "paleturquoise",
+        "Code": "#afeeee"
+    },
+    {
+        "Name": "palevioletred",
+        "Code": "#db7093"
+    },
+    {
+        "Name": "papayawhip",
+        "Code": "#ffefd5"
+    },
+    {
+        "Name": "peachpuff",
+        "Code": "#ffdab9"
+    },
+    {
+        "Name": "peru",
+        "Code": "#cd853f"
+    },
+    {
+        "Name": "pink",
+        "Code": "#ffc0cb"
+    },
+    {
+        "Name": "plum",
+        "Code": "#dda0dd"
+    },
+    {
+        "Name": "powderblue",
+        "Code": "#b0e0e6"
+    },
+    {
+        "Name": "purple",
+        "Code": "#800080"
+    },
+    {
+        "Name": "rebeccapurple",
+        "Code": "#663399"
+    },
+    {
+        "Name": "red",
+        "Code": "#ff0000"
+    },
+    {
+        "Name": "rosybrown",
+        "Code": "#bc8f8f"
+    },
+    {
+        "Name": "royalblue",
+        "Code": "#4169e1"
+    },
+    {
+        "Name": "saddlebrown",
+        "Code": "#8b4513"
+    },
+    {
+        "Name": "salmon",
+        "Code": "#fa8072"
+    },
+    {
+        "Name": "sandybrown",
+        "Code": "#f4a460"
+    },
+    {
+        "Name": "seagreen",
+        "Code": "#2e8b57"
+    },
+    {
+        "Name": "seashell",
+        "Code": "#fff5ee"
+    },
+    {
+        "Name": "sienna",
+        "Code": "#a0522d"
+    },
+    {
+        "Name": "silver",
+        "Code": "#c0c0c0"
+    },
+    {
+        "Name": "skyblue",
+        "Code": "#87ceeb"
+    },
+    {
+        "Name": "slateblue",
+        "Code": "#6a5acd"
+    },
+    {
+        "Name": "slategray",
+        "Code": "#708090"
+    },
+    {
+        "Name": "slategrey",
+        "Code": "#708090"
+    },
+    {
+        "Name": "snow",
+        "Code": "#fffafa"
+    },
+    {
+        "Name": "springgreen",
+        "Code": "#00ff7f"
+    },
+    {
+        "Name": "steelblue",
+        "Code": "#4682b4"
+    },
+    {
+        "Name": "tan",
+        "Code": "#d2b48c"
+    },
+    {
+        "Name": "teal",
+        "Code": "#008080"
+    },
+    {
+        "Name": "thistle",
+        "Code": "#d8bfd8"
+    },
+    {
+        "Name": "tomato",
+        "Code": "#ff6347"
+    },
+    {
+        "Name": "turquoise",
+        "Code": "#40e0d0"
+    },
+    {
+        "Name": "violet",
+        "Code": "#ee82ee"
+    },
+    {
+        "Name": "wheat",
+        "Code": "#f5deb3"
+    },
+    {
+        "Name": "white",
+        "Code": "#ffffff"
+    },
+    {
+        "Name": "whitesmoke",
+        "Code": "#f5f5f5"
+    },
+    {
+        "Name": "yellow",
+        "Code": "#ffff00"
+    },
+    {
+        "Name": "yellowgreen",
+        "Code": "#9acd32"
+    }
+]

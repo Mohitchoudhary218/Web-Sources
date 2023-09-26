@@ -1,0 +1,53 @@
+#location {
+    position:relative;
+    left:900px;
+    bottom:300px;
+    width:35rem;
+    height: 25rem;
+}
+
+#p1
+{
+    position:relative;
+    left:175px;
+    bottom:37px;
+}
+
+#p2
+{
+    position: relative;
+    left:375px;
+    bottom:75px
+}
+
+#space 
+{
+    position:relative;
+    bottom: 10px;
+}
+
+#place
+{
+    position: relative;
+    bottom:225px;
+    left:50px;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+#change
+{   
+    color:white;
+    text-decoration: none;
+}
+
+#position
+{
+    position: relative;
+    left:30px;
+    bottom:10px;
+}
+
+
+
+

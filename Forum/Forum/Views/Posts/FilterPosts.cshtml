@@ -1,0 +1,46 @@
+@model IEnumerable<Forum.Models.Post>
+
+@{
+    ViewData["Title"] = "FDU Forum";
+}
+
+<div id="front">
+    <button id="button1" class="btn btn-outline-primary">Filter Posts By Topic</button>
+    <button id="button2" class="btn btn-outline-success">Filter Post By Member</button>
+    <button id="button3" class="btn btn-outline-warning">Filter Post By Date</button>
+</div>
+
+<hr />
+
+<div id="centers" class="card" hidden>
+    <div class="card-title bg-primary text-center text-white" id="size">
+    </div>
+    <div class="card-body">
+        <form asp-action="Display_Filter_Topic" id="i1" hidden>
+            <select name="data1">
+                <option name="data1" id="o1" value="" disabled selected>Search a Topic</option>
+                <option name="data1" id="o2" value="Programming">Programming</option>
+                <option name="data1" id="o3" value="Networking">Networking</option>
+                <option name="data1" id="o4" value="Security">Security</option>
+            </select>
+            <input type="submit" value="Filter" class="btn btn-primary" id="change_2" />
+        </form>
+        <form asp-action="Display_Filter_Member" id="i2" hidden>
+            <select name="data2">
+                <option id="o1" value="" disabled selected>Search a Member</option>
+                <option name="data2" id="o2" value="Admin@gmail.com">Admin@gmail.com</option>
+                <option name="data2" id="o3" value="Member@gmail.com">Member@gmail.com</option>
+                <option name="data2" id="o4" value="Other@gmail.com">Other@gmail.com</option>
+            </select>
+            <input type="submit" value="Filter" class="btn btn-primary" id="change_2" />
+        </form>
+        <form asp-action="Display_Filter_Date" id="change_4" hidden>
+            <input name="data3" type="date" id="change_3"/>
+            <input type="submit" value="Filter" class="btn btn-primary" id="change_2" />
+        </form>
+
+    </div>
+</div>
+
+<br/>
+
